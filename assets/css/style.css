@@ -1,0 +1,207 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.cta-btn {
+    background-color: #dbd7cf;
+    width: 100%;
+    max-width: 310px;
+    font-weight: 600;
+}
+
+.ready-to-take-btn {
+    background-color: #dbd7cf;
+    width: 100%;
+    font-weight: 600;
+}
+
+.cta-sub-heading {
+    font-size: 18px;
+    font-weight: 400;
+    color: #dbd7cf;
+}
+
+.cta-main-heading {
+    font-size: 48px;
+}
+
+.banner {
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 920px;
+    background-position: center;
+}
+
+.cta-heading {
+    height: 700px;
+}
+
+main,
+footer {
+    background-color: #f6f6f6;
+}
+
+.why-choose-heding-main,
+.ready-to-take-heading {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.why-choose-heding-sub {
+    color: #423d3f;
+    font-weight: 600;
+}
+
+.footer-loaction h5,
+.footer-time h5,
+.footer-nav-sec p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #423d3f;
+}
+
+.why-choose-card p {
+    color: #6f6b6c;
+}
+
+.why-choose-card-sec {
+    padding: 0rem 0rem 0rem 6rem;
+}
+
+.why-choose-heding-sub::before {
+    content: "";
+    position: absolute;
+    left: -12px;
+    top: 7px;
+    height: 16px;
+    width: 16px;
+    background: rgb(52, 52, 52);
+    border-radius: 15px;
+    border: 4px solid rgb(190, 190, 190);
+}
+
+.ready-to-take-section {
+    background-image: linear-gradient(45deg, #000d28, #000d28);
+    transform: skewY(-5deg);
+}
+
+.ready-to-take-contain {
+    transform: skewY(5deg);
+}
+
+.banner-dai::before {
+    content: "";
+    background-image: url(../img/star-1-r.png);
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 45%;
+    bottom: 35%;
+}
+
+.banner-dai::after {
+    content: "";
+    background-image: url(../img/star.png);
+    height: 331px;
+    width: 100%;
+    position: absolute;
+    bottom: -15%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 20%;
+}
+
+.social-icon p {
+    border: 2px solid;
+    border-radius: 50px;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 5px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+    iframe {
+        margin-bottom: 20px;
+    }
+
+    .banner-dai {
+        display: none;
+    }
+
+    .why-choose-card-sec {
+        padding: 0rem 0rem 0rem 2rem;
+    }
+
+    .why-choose-section {
+        padding-bottom: 0px;
+    }
+
+    .cta-main-heading,
+    .why-choose-heding-main,
+    .ready-to-take-heading {
+        font-size: 32px;
+    }
+
+    .ready-to-take {
+        margin-top: 40px;
+    }
+
+    .banner {
+        height: 600px;
+    }
+
+    .cta-btn {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .cta-heading {
+        display: inline;
+        height: 400px;
+    }
+
+}
+
+@media screen and (min-device-width: 426px) and (max-device-width: 768px) {
+
+    .banner {
+        height: 630px;
+    }
+
+    .cta-heading {
+        display: inline;
+        height: 450px;
+    }
+
+    .cta-btn {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .cta-main-heading {
+        font-size: 35px;
+    }
+
+    .banner-dai::before,
+    .banner-dai::after {
+        display: none;
+    }
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .banner-dai::before {
+        left: 30%;
+
+    }
+}
